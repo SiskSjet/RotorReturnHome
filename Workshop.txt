@@ -1,0 +1,21 @@
+﻿This simple yet useful modification for Space Engineers allows players to easily return their rotors to their home position with just the press of a terminal button.
+No more manual adjustments or scripts required!
+
+[h2]🛠︰Info ・─────────────・・・[/h2]
+Adds a button to start return the rotor to home position and a slider to set the home position angle to rotor terminal controls.
+
+❗❗❗ Currently only advanced rotors are supported because it's not possible to create terminal controls to IMyStator.
+If you really want support for it please vote for this [url=https://support.keenswh.com/spaceengineers/pc/topic/mod-api-terminal-controls-cannot-be-added-to-rotors]bug[/url]❗❗❗
+
+[h2]🛠︰Support ・──────────・・・[/h2]
+It would be nice if you could consider supporting me 
+
+[url=https://ko-fi.com/sisksjet][img]https://steamuserimages-a.akamaihd.net/ugc/2287333413738438809/074D2B10C793252F866EEB91EC748E0E8B3C3210/?imw=64&imh=64&ima=fit&impolicy=Letterbox&letterbox=false[/img][/url] [url=https://patreon.com/sisk][img]https://steamuserimages-a.akamaihd.net/ugc/2287333413738613768/8FE59EC78463E3EFA52D59347D83D3C9838BF6E6/?imw=64&imh=64&ima=fit&impolicy=Letterbox&letterbox=false[/img][/url] [url=https://paypal.me/sisksjet][img]https://steamuserimages-a.akamaihd.net/ugc/2287333413738619680/36B89C41163487AD5BFB13B2C673E0F153171D29/?imw=64&imh=64&ima=fit&impolicy=Letterbox&letterbox=true[/img][/url]
+
+or join my [url=https://discord.gg/2s22YCqSFg]Discord[/url] if you have suggestions, wishes, or just want to know what else I'm working on. My Discord is new, so there is not much going on yet.
+You can also check out my other mods in my [url=https://steamcommunity.com/id/sisksjet/myworkshopfiles/?appid=244850]Workshop[/url].
+
+[h2]🛠︰Github ・───────────・・・[/h2]
+The source for this mod can be found at [url=https://github.com/SiskSjet/RotorReturnHome] BuildColors [/url] and is licensed under [url=https://github.com/SiskSjet/RotorReturnHome/blob/master/LICENSE] MIT [/url]
+You can use my code as you like, just a license and a copyright notice is required, but please do not flood the workshop with copies of this mod.
+If you think some features are missing, try to ask first
