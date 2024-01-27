@@ -8,7 +8,7 @@ using Sisk.RotorReturnHome.Localization;
 namespace Sisk.RotorReturnHome.Controls {
 
     internal static class ReturnToHomeButton {
-        private const string ID = nameof(ModText.BlockPropertyTitle_ReturnToHome);
+        private const string ID = "ReturnToHome";
 
         private static IEnumerable<IMyTerminalAction> _actions;
         private static IMyTerminalControlButton _control;

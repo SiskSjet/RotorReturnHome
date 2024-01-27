@@ -9,7 +9,7 @@ using Sisk.RotorReturnHome.LogicComponent;
 namespace Sisk.RotorReturnHome.Controls {
 
     internal static class HomePositionAngleSlider {
-        private const string ID = nameof(ModText.BlockPropertyTitle_HomePositionAngle);
+        private const string ID = "HomePositionAngle";
 
         private static IEnumerable<IMyTerminalAction> _actions;
         private static IMyTerminalControlSlider _control;

@@ -23,7 +23,7 @@ namespace Sisk.RotorReturnHome.Controls {
             var actions = new List<IMyTerminalAction>();
             actions.AddRange(ReturnToHomeButton.Actions);
             actions.AddRange(HomePositionAngleSlider.Actions);
-            actions.AddRange(DisableRotorCheckbox.Actions);
+            actions.AddRange(DisableRotorWhenHomeAngleReachedCheckbox.Actions);
 
             foreach (var action in actions) {
                 MyAPIGateway.TerminalControls.AddAction<IMyMotorBase>(action);
@@ -33,12 +33,12 @@ namespace Sisk.RotorReturnHome.Controls {
         private static void CreateControls() {
             MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(ReturnToHomeButton.Control);
             MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(HomePositionAngleSlider.Control);
-            MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(DisableRotorCheckbox.Control);
+            MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(DisableRotorWhenHomeAngleReachedCheckbox.Control);
         }
 
         private static void CreateProperties() {
             MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(HomePositionAngleSlider.Property);
-            MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(DisableRotorCheckbox.Property);
+            MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(DisableRotorWhenHomeAngleReachedCheckbox.Property);
         }
     }
 }
