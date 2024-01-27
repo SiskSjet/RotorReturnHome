@@ -80,7 +80,7 @@ namespace Sisk.RotorReturnHome.Controls {
 
             var lowerLimit = stator.LowerLimitDeg;
 
-            return lowerLimit == float.MinValue ? 0 : lowerLimit + 360;
+            return lowerLimit == float.MinValue ? -360 : lowerLimit;
         }
 
         private static void Setter(IMyTerminalBlock block, float value) {
