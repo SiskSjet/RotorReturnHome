@@ -126,6 +126,10 @@ namespace Sisk.RotorReturnHome.LogicComponent {
             if (Block?.CubeGrid?.Physics == null) {
                 return;
             }
+
+            if (IsReturningToHome) {
+                NeedsUpdate |= MyEntityUpdateEnum.EACH_FRAME;
+            }
         }
 
         private void ClampHomePositionAngleToLimits() {
