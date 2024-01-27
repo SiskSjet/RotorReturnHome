@@ -11,7 +11,7 @@
 
 ## 🛠︰Info
 
-This simple yet useful modification for Space Engineers allows players to easily return their rotors to their home position with just the press of a terminal button.
+This simple yet useful mod for Space Engineers allows players to easily return their rotors to their home position with just the press of a terminal button.
 No more manual adjustments or scripts required!
 
 Adds a button to start return the rotor to home position and a slider to set the home position angle to rotor terminal controls.
