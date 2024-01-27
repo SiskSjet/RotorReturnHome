@@ -76,11 +76,15 @@ namespace Sisk.RotorReturnHome.Controls {
         }
 
         private static float MinGetter(IMyTerminalBlock block) {
-            var stator = block as IMyMotorStator;
+            var stator = block as IMyMotorAdvancedStator;
 
             var lowerLimit = stator.LowerLimitDeg;
+            var upperLimit = stator.UpperLimitDeg;
+            if (upperLimit <= 90f && lowerLimit >= -90f) {
+                return lowerLimit;
+            }
 
-            return lowerLimit == float.MinValue ? -360 : lowerLimit;
+            return lowerLimit == float.MinValue ? 0 : lowerLimit + 360;
         }
 
         private static void Setter(IMyTerminalBlock block, float value) {
