@@ -1,11 +1,29 @@
-﻿This simple yet useful modification for Space Engineers allows players to easily return their rotors to their home position with just the press of a terminal button.
+﻿This simple yet useful mod for Space Engineers allows players to easily return their rotors to their home position with just the press of a terminal button.
 No more manual adjustments or scripts required!
 
 [h2]🛠︰Info ・─────────────・・・[/h2]
 Adds a button to start return the rotor to home position and a slider to set the home position angle to rotor terminal controls.
 
-❗❗❗ Currently only advanced rotors are supported because it's not possible to create terminal controls to IMyStator.
-If you really want support for it please vote for this [url=https://support.keenswh.com/spaceengineers/pc/topic/mod-api-terminal-controls-cannot-be-added-to-rotors]bug[/url]❗❗❗
+❗❗❗ Currently only advanced rotors and hinges are supported because it's not possible to create terminal controls to IMyStator.
+If you really want support for it please vote for this at least 3 years old [url=https://support.keenswh.com/spaceengineers/pc/topic/mod-api-terminal-controls-cannot-be-added-to-rotors]bug[/url]❗❗❗
+
+[h2]🛠︰Programableblock API ・──・・[/h2]
+you can also use this mod in your own scripts by using the following actions and properties
+
+[h3]🛠︰Actions[/h3]
+[list]
+[*]ReturnToHome: [i]Return to home position[/i]
+[*]ResetHomePositionAngle: [i]Reset home position angle[/i]
+[*]IncreaseHomePositionAngle: [i]Increase home position angle[/i]
+[*]DecreaseHomePositionAngle: [i]Decrease home position angle[/i]
+[*]DisableRotorWhenHomeAngleReached: [i]Disable rotor when hp reached On/Off[/i]
+[/list]
+
+[h3]🛠︰Properties[/h3]
+[list]
+[*]HomePositionAngle: float
+[*]DisableRotorWhenHomeAngleReached: bool
+[/list]
 
 [h2]🛠︰Support ・──────────・・・[/h2]
 It would be nice if you could consider supporting me 
@@ -16,6 +34,6 @@ or join my [url=https://discord.gg/2s22YCqSFg]Discord[/url] if you have suggesti
 You can also check out my other mods in my [url=https://steamcommunity.com/id/sisksjet/myworkshopfiles/?appid=244850]Workshop[/url].
 
 [h2]🛠︰Github ・───────────・・・[/h2]
-The source for this mod can be found at [url=https://github.com/SiskSjet/RotorReturnHome] BuildColors [/url] and is licensed under [url=https://github.com/SiskSjet/RotorReturnHome/blob/master/LICENSE] MIT [/url]
+The source for this mod can be found at [url=https://github.com/SiskSjet/RotorReturnHome] RotorReturnHome [/url] and is licensed under [url=https://github.com/SiskSjet/RotorReturnHome/blob/master/LICENSE] MIT [/url]
 You can use my code as you like, just a license and a copyright notice is required, but please do not flood the workshop with copies of this mod.
 If you think some features are missing, try to ask first

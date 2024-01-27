@@ -9,7 +9,7 @@ using Sisk.RotorReturnHome.LogicComponent;
 namespace Sisk.RotorReturnHome.Controls {
 
     internal static class HomePositionAngleSlider {
-        private const string ID = nameof(ModText.BlockPropertyTitle_HomePositionAngle);
+        private const string ID = "HomePositionAngle";
 
         private static IEnumerable<IMyTerminalAction> _actions;
         private static IMyTerminalControlSlider _control;
@@ -76,9 +76,13 @@ namespace Sisk.RotorReturnHome.Controls {
         }
 
         private static float MinGetter(IMyTerminalBlock block) {
-            var stator = block as IMyMotorStator;
+            var stator = block as IMyMotorAdvancedStator;
 
             var lowerLimit = stator.LowerLimitDeg;
+            var upperLimit = stator.UpperLimitDeg;
+            if (upperLimit <= 90f && lowerLimit >= -90f) {
+                return lowerLimit;
+            }
 
             return lowerLimit == float.MinValue ? 0 : lowerLimit + 360;
         }

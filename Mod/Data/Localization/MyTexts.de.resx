@@ -135,4 +135,10 @@
   <data name="BlockPropertyTitle_DisableRotor" xml:space="preserve">
     <value>Schalte Motor aus wen Ausgangsposition erreicht</value>
   </data>
+  <data name="BlockPropertyOnText_DisableRotor" xml:space="preserve">
+    <value>An</value>
+  </data>
+  <data name="BlockPropertyOffText_DisableRotor" xml:space="preserve">
+    <value>Aus</value>
+  </data>
 </root>

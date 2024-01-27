@@ -7,8 +7,8 @@ using System.Collections.Generic;
 
 namespace Sisk.RotorReturnHome.Controls {
 
-    internal static class DisableRotorCheckbox {
-        private const string ID = nameof(ModText.BlockPropertyTitle_DisableRotor);
+    internal static class DisableRotorWhenHomeAngleReachedCheckbox {
+        private const string ID = "DisableRotorWhenHomeAngleReached";
 
         private static IEnumerable<IMyTerminalAction> _actions;
         private static IMyTerminalControlCheckbox _control;
@@ -32,6 +32,8 @@ namespace Sisk.RotorReturnHome.Controls {
 
             control.Title = ModText.BlockPropertyTitle_DisableRotor;
             control.Tooltip = ModText.BlockPropertyTooltip_DisableRotor;
+            control.OnText = ModText.BlockPropertyOnText_DisableRotor;
+            control.OffText = ModText.BlockPropertyOffText_DisableRotor;
             control.Enabled = Enabled;
             control.SupportsMultipleBlocks = true;
             control.Getter = Getter;

@@ -61,6 +61,24 @@ namespace Mod.Data.Localization {
         }
         
         /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die Off ähnelt.
+        /// </summary>
+        internal static string BlockPropertyOffText_DisableRotor {
+            get {
+                return ResourceManager.GetString("BlockPropertyOffText_DisableRotor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sucht eine lokalisierte Zeichenfolge, die On ähnelt.
+        /// </summary>
+        internal static string BlockPropertyOnText_DisableRotor {
+            get {
+                return ResourceManager.GetString("BlockPropertyOnText_DisableRotor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Sucht eine lokalisierte Zeichenfolge, die Disable rotor when hp reached ähnelt.
         /// </summary>
         internal static string BlockPropertyTitle_DisableRotor {

@@ -115,4 +115,10 @@
   <data name="BlockPropertyTooltip_DisableRotor" xml:space="preserve">
     <value>Will disable the rotor when home position is reached</value>
   </data>
+  <data name="BlockPropertyOnText_DisableRotor" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="BlockPropertyOffText_DisableRotor" xml:space="preserve">
+    <value>Off</value>
+  </data>
 </root>
