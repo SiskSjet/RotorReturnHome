@@ -24,7 +24,7 @@ namespace Sisk.RotorReturnHome.LogicComponent {
         /// <summary>
         /// Indicates if smart rotor is able to rotate to home position.
         /// </summary>
-        public bool CanReturnToHome => Block.Enabled && !Block.RotorLock;
+        public bool CanReturnToHome => Block.Enabled && !Block.RotorLock && Block.IsAttached;
 
         /// <summary>
         /// Indicates if smart rotor should be disabled when home position is reached.
