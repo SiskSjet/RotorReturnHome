@@ -4,7 +4,7 @@ No more manual adjustments or scripts required!
 [h2]🛠︰Info ・─────────────・・・[/h2]
 Adds a button to start return the rotor to home position and a slider to set the home position angle to rotor terminal controls.
 
-❗❗❗ Currently only advanced rotors and hinges are supported because it's not possible to create terminal controls to IMyStator.
+❗❗❗ Currently only advanced rotors and hinges are supported because of a bug.
 If you really want support for it please vote for this at least 3 years old [url=https://support.keenswh.com/spaceengineers/pc/topic/mod-api-terminal-controls-cannot-be-added-to-rotors]bug[/url]❗❗❗
 
 [h2]🛠︰Programableblock API ・──・・[/h2]

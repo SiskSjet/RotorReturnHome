@@ -16,7 +16,7 @@ No more manual adjustments or scripts required!
 
 Adds a button to start return the rotor to home position and a slider to set the home position angle to rotor terminal controls.
 
-❗❗❗ Currently only advanced rotors and hinges are supported because it's not possible to create terminal controls to IMyStator.
+❗❗❗ Currently only advanced rotors and hinges are supported because of a bug.
 If you really want support for it please vote for this at least 3 years old [bug report](https://support.keenswh.com/spaceengineers/pc/topic/mod-api-terminal-controls-cannot-be-added-to-rotors)❗❗❗
 
 ## 🛠︰ Programableblock API
@@ -38,7 +38,7 @@ you can also use this mod in your own scripts by using the following actions and
 
 ## 🛠︰Installation
 
-The easiest way is to download it from [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=1475392343).
+The easiest way is to download it from [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3148640475).
 
 You can also download the latest zip from [releases](https://github.com/SiskSjet/RotorReturnHome/releases) and extract it to your '%appdata%\SpaceEngineers\Mods' folder
 
