@@ -4,8 +4,29 @@ No more manual adjustments or scripts required!
 [h2]🛠︰Info ・─────────────・・・[/h2]
 Adds a button to start return the rotor to home position and a slider to set the home position angle to rotor terminal controls.
 
-❗❗❗ Currently only advanced rotors are supported because it's not possible to create terminal controls to IMyStator.
+❗❗❗ Currently only advanced rotors and hinges are supported because it's not possible to create terminal controls to IMyStator.
 If you really want support for it please vote for this [url=https://support.keenswh.com/spaceengineers/pc/topic/mod-api-terminal-controls-cannot-be-added-to-rotors]bug[/url]❗❗❗
+
+[h2]Programableblock API ・──・・[/h2]
+
+you can also use this mod in your own scripts by using the following actions and properties
+
+[h3]🛠︰Actions[/h3]
+
+[list]
+[*]ReturnToHome: Return to home position
+[*]ResetHomePositionAngle: Reset home position angle
+[*]IncreaseHomePositionAngle: Increase home position angle
+[*]DecreaseHomePositionAngle: Decrease home position angle
+[*]DisableRotorWhenHomeAngleReached: Disable rotor when hp reached On/Off
+[/list]
+
+[h3]🛠︰Properties[/h3]
+
+[list]
+[*]HomePositionAngle: float
+[*]DisableRotorWhenHomeAngleReached: bool
+[/list]
 
 [h2]🛠︰Support ・──────────・・・[/h2]
 It would be nice if you could consider supporting me 
