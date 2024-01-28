@@ -12,17 +12,17 @@ you can also use this mod in your own scripts by using the following actions and
 
 [h3]🛠︰Actions[/h3]
 [list]
-[*]ReturnToHome: [i]Return to home position[/i]
-[*]ResetHomePositionAngle: [i]Reset home position angle[/i]
-[*]IncreaseHomePositionAngle: [i]Increase home position angle[/i]
-[*]DecreaseHomePositionAngle: [i]Decrease home position angle[/i]
-[*]DisableRotorWhenHomeAngleReached: [i]Disable rotor when hp reached On/Off[/i]
+[*][b]ReturnToHome[/b]: [i]Return to home position[/i]
+[*][b]ResetHomePositionAngle[/b]: [i]Reset home position angle[/i]
+[*][b]IncreaseHomePositionAngle[/b]: [i]Increase home position angle[/i]
+[*][b]DecreaseHomePositionAngle[/b]: [i]Decrease home position angle[/i]
+[*][b]DisableRotorWhenHomeAngleReached[/b]: [i]Disable rotor when hp reached On/Off[/i]
 [/list]
 
 [h3]🛠︰Properties[/h3]
 [list]
-[*]HomePositionAngle: float
-[*]DisableRotorWhenHomeAngleReached: bool
+[*][b]HomePositionAngle[/b]: float
+[*][b]DisableRotorWhenHomeAngleReached[/b]: bool
 [/list]
 
 [h2]🛠︰Support ・──────────・・・[/h2]
@@ -37,3 +37,45 @@ You can also check out my other mods in my [url=https://steamcommunity.com/id/si
 The source for this mod can be found at [url=https://github.com/SiskSjet/RotorReturnHome] RotorReturnHome [/url] and is licensed under [url=https://github.com/SiskSjet/RotorReturnHome/blob/master/LICENSE] MIT [/url]
 You can use my code as you like, just a license and a copyright notice is required, but please do not flood the workshop with copies of this mod.
 If you think some features are missing, try to ask first
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Dieser einfache, aber nützliche Mod für Raumfahrtingenieure ermöglicht es Spielern, ihre Rotoren ganz einfach mit nur einem Tastendruck am Terminal in ihre Ausgangsposition zurückzubringen.
+Keine manuellen Anpassungen oder Skripte mehr erforderlich!
+
+[h2]🛠︰Info ・─────────────・・・[/h2]
+Fügt eine Schaltfläche zum Starten der Rückkehr des Rotors in die Ausgangsposition und einen Schieberegler zum Festlegen des Ausgangspositionswinkels für die Steuerung des Rotorterminals hinzu.
+
+❗❗❗ Aufgrund eines Bugs werden derzeit nur erweiterte Rotoren und Scharniere unterstützt.
+Wenn ihr wirklich Unterstützung dafür wünschen, stimme bitte für diesen mindestens 3 Jahre alten Fehler [url=https://support.keenswh.com/spaceengineers/pc/topic/mod-api-terminal-controls-cannot-be-added-to-rotors]Bug[/url]❗❗❗
+
+[h2]🛠︰Programableblock API ・──・・[/h2]
+Ihr könnt diese Mod auch in eigenen Skripten verwenden, indem die folgenden Aktionen und Eigenschaften genutzt werden können
+
+[h3]🛠︰Actions[/h3]
+[list]
+[*][b]ReturnToHome[/b]: [i]Zur Ausgangsposition zurückkehren[/i]
+[*][b]ResetHomePositionAngle[/b]: [i]Ausgangspositionswinkel zurücksetzen[/i]
+[*][b]IncreaseHomePositionAngle[/b]: [i]Ausgangspositionswinkel erhöhen[/i]
+[*][b]DecreaseHomePositionAngle[/b]: [i]Ausgangspositionswinkel verringern[/i]
+[*][b]DisableRotorWhenHomeAngleReached[/b]: [i]Deaktiviere den Rotor, wenn die Ausgangsposition erreicht wird An/Aus[/i]
+[/list]
+
+[h3]🛠︰Properties[/h3]
+[list]
+[*][b]HomePositionAngle[/b]: float
+[*][b]DisableRotorWhenHomeAngleReached[/b]: bool
+[/list]
+
+[h2]🛠︰Support ・──────────・・・[/h2]
+Es wäre schön, wenn ihr mich unterstützen würdet
+
+[url=https://ko-fi.com/sisksjet][img]https://steamuserimages-a.akamaihd.net/ugc/2287333413738438809/074D2B10C793252F866EEB91EC748E0E8B3C3210/?imw=64&imh=64&ima=fit&impolicy=Letterbox&letterbox=false[/img][/url] [url=https://patreon.com/sisk][img]https://steamuserimages-a.akamaihd.net/ugc/2287333413738613768/8FE59EC78463E3EFA52D59347D83D3C9838BF6E6/?imw=64&imh=64&ima=fit&impolicy=Letterbox&letterbox=false[/img][/url] [url=https://paypal.me/sisksjet][img]https://steamuserimages-a.akamaihd.net/ugc/2287333413738619680/36B89C41163487AD5BFB13B2C673E0F153171D29/?imw=64&imh=64&ima=fit&impolicy=Letterbox&letterbox=true[/img][/url]
+
+oder meinem [url=https://discord.gg/2s22YCqSFg]Discord[/url] beitretet, wenn ihr Vorschläge oder Wünsche haben oder einfach nur wissen möchten, woran ich sonst noch arbeite. Mein Discord ist neu, daher ist noch nicht viel los.
+Ihr könnt euch auch meine anderen Mods in meinem [url=https://steamcommunity.com/id/sisksjet/myworkshopfiles/?appid=244850]Workshop[/url] ansehen.
+
+[h2]🛠︰Github ・───────────・・・[/h2]
+Den Source code dieser Mod kann unter [url=https://github.com/SiskSjet/RotorReturnHome] RotorReturnHome [/url] gefunden werden und ist lizenziert unter [url=https://github.com/SiskSjet/RotorReturnHome/blob/master/LICENSE] MIT [/url]
+Du kannst meinen Code benutzen wie du magst, nur ein Lizenz und ein Copyright-Hinweis ist erforderlich, aber bitte überflute den Workshop nicht mit Kopien dieser Mod.
+Wenn ihr der Meinung seid, dass einige Funktionen fehlen, versucht sie zuerst anzufragen
