@@ -1,4 +1,4 @@
-﻿This simple yet useful mod for Space Engineers allows players to easily return their rotors to their home position with just the press of a terminal button.
+﻿This simple yet useful mod allows players to easily return their rotors to their home position with just the press of a terminal button.
 No more manual adjustments or scripts required!
 
 [h2]🛠︰Info ・─────────────・・・[/h2]
@@ -40,7 +40,7 @@ If you think some features are missing, try to ask first
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Dieser einfache, aber nützliche Mod für Raumfahrtingenieure ermöglicht es Spielern, ihre Rotoren ganz einfach mit nur einem Tastendruck am Terminal in ihre Ausgangsposition zurückzubringen.
+Dieser einfache, aber nützliche Mod ermöglicht es Spielern, ihre Rotoren ganz einfach mit nur einem Tastendruck am Terminal in ihre Ausgangsposition zurückzubringen.
 Keine manuellen Anpassungen oder Skripte mehr erforderlich!
 
 [h2]🛠︰Info ・─────────────・・・[/h2]
