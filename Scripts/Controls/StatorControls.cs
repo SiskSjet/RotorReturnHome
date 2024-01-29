@@ -39,6 +39,7 @@ namespace Sisk.RotorReturnHome.Controls {
         private static void CreateProperties() {
             MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(HomePositionAngleSlider.Property);
             MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(DisableRotorWhenHomeAngleReachedCheckbox.Property);
+            MyAPIGateway.TerminalControls.AddControl<IMyMotorBase>(IsReturningToHomeProperty.Property);
         }
     }
 }

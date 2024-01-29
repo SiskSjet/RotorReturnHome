@@ -35,6 +35,7 @@ you can also use this mod in your own scripts by using the following actions and
 
 * HomePositionAngle: float
 * DisableRotorWhenHomeAngleReached: bool
+* IsReturningToHome: bool
 
 ## 🛠︰Installation
 

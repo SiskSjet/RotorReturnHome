@@ -23,6 +23,7 @@ you can also use this mod in your own scripts by using the following actions and
 [list]
 [*][b]HomePositionAngle[/b]: float
 [*][b]DisableRotorWhenHomeAngleReached[/b]: bool
+[*][b]IsReturningToHome[/b]: bool
 [/list]
 
 [h2]🛠︰Support ・──────────・・・[/h2]

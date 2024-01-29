@@ -55,7 +55,7 @@ namespace Sisk.RotorReturnHome.LogicComponent {
         /// <summary>
         /// Indicates if smart rotor is returning to home position.
         /// </summary>
-        private bool IsReturningToHome {
+        public bool IsReturningToHome {
             get { return _settings.IsReturningToHome; }
             set {
                 if (value != _settings.IsReturningToHome) {
