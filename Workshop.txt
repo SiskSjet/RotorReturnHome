@@ -66,6 +66,7 @@ Ihr könnt diese Mod auch in eigenen Skripten verwenden, indem die folgenden Akt
 [list]
 [*][b]HomePositionAngle[/b]: float
 [*][b]DisableRotorWhenHomeAngleReached[/b]: bool
+[*][b]IsReturningToHome[/b]: bool
 [/list]
 
 [h2]🛠︰Support ・──────────・・・[/h2]
