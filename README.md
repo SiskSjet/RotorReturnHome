@@ -37,6 +37,10 @@ you can also use this mod in your own scripts by using the following actions and
 * DisableRotorWhenHomeAngleReached: bool
 * IsReturningToHome: bool
 
+### 🛠︰Incompatible Mods
+
+* HomePositionAngle: This mod hides controls of advanced rotors.
+
 ## 🛠︰Installation
 
 The easiest way is to download it from [SteamWorkshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3148640475).

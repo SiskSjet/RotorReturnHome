@@ -26,6 +26,11 @@ you can also use this mod in your own scripts by using the following actions and
 [*][b]IsReturningToHome[/b]: bool
 [/list]
 
+[h3]🛠︰Incompatible Mods[/h3]
+[list]
+[*][b]VCZ Elevator v2.0[/b]: This mod hides controls of advanced rotors.
+[/list]
+
 [h2]🛠︰Support ・──────────・・・[/h2]
 It would be nice if you could consider supporting me 
 
@@ -67,6 +72,11 @@ Ihr könnt diese Mod auch in eigenen Skripten verwenden, indem die folgenden Akt
 [*][b]HomePositionAngle[/b]: float
 [*][b]DisableRotorWhenHomeAngleReached[/b]: bool
 [*][b]IsReturningToHome[/b]: bool
+[/list]
+
+[h3]🛠︰Inkompatible Mods[/h3]
+[list]
+[*][b]VCZ Elevator v2.0[/b]: Dieser Mod versteckt Steuerelemente von erweiterten Rotoren.
 [/list]
 
 [h2]🛠︰Support ・──────────・・・[/h2]
